@@ -1,3 +1,4 @@
+/*basic set up*/
 * {
     margin: 0;
     padding: 0;
@@ -12,12 +13,21 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+/*----------------*/
+/*reusable items and header*/
+/*----------------*/
 
 header {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
+}
+
+.logo {
+    height: 100px;
+    width: auto;
+    float: left;
 }
 
 .hero-text-box {
@@ -46,12 +56,14 @@ h1 {
     color: #fff;
     border-radius: 200px;
     border: 1px solid #f39c12;
+    transition: background-color 0.2s, border 0.2s, color 0.2s;
 }
 
 
 .btn-full:link,
 .btn-full:visited {
     background-color:#f39c12;
+    margin-right: 15px;
 }
 
 .btn-ghost:link,

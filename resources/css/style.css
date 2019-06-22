@@ -1,4 +1,6 @@
-/*basic set up*/
+/* --- orange code  #d8890b ---*/
+
+/* --- basic set up --- */
 * {
     margin: 0;
     padding: 0;
@@ -13,30 +15,52 @@ html {
     font-size: 20px;
     text-rendering: optimizeLegibility;
 }
+
 /*----------------*/
 /*reusable items and header*/
 /*----------------*/
 
-header {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
 }
 
-.hero-text-box {
-    position: absolute;
-    width: 1140px;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-}
 
 .logo {
+    margin-top: 20px;
     height: 100px;
     width: auto;
     float: left;
 }
+
+.main-nav {
+    float: right;
+    list-style: none;
+    margin-top: 55px;
+}
+
+.main-nav li {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.main-nav li a:link,
+.main-nav li a:visited {
+    padding: 8px 0;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 90%;
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+}
+
+.main-nav li a:hover,
+.main-nav li a:active {
+    border-bottom: 2px solid #d8890b;
+}
+
+/* --- headerings --- */
 
 h1 {
     margin: 0 0 20px 0;
@@ -46,6 +70,8 @@ h1 {
     text-transform: uppercase;
     word-spacing: 4px;
 }
+
+/* --- buttons --- */
 
 .btn:link,
 .btn:visited {
@@ -87,4 +113,21 @@ h1 {
 .btn-ghost:hover,
 .btn-ghost:active, {
 
+}
+
+/* --- header --- */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.hero-text-box {
+    position: absolute;
+    width: 1140px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }

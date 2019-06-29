@@ -120,6 +120,20 @@ h3 {
     margin-left: 15%;
 }
 
+.box p {
+    font-size: 90%;
+    line-height: 145%;
+}
+
+/* --- icons --- */
+
+.icon-big {
+    font-size: 350%;
+    display: block;
+    color: #d8890b;
+    margin-bottom: 10px;
+}
+
 /* --- buttons --- */
 
 .btn:link,
@@ -179,4 +193,27 @@ header {
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
+}
+
+/* --- meals --- */
+
+.meals-showcase {
+    list-style: none;
+    width: 100%;
+}
+
+.meals-showcase li {
+    display: block;
+    float: left;
+    width: 25%;
+}
+
+.meal-photo {
+    width: 100%;
+    margin: 0;
+}
+
+.meal-photo img {
+    width: 100%;
+    height: auto;
 }

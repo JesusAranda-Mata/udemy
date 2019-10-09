@@ -196,7 +196,8 @@ a:active {
 
 .btn-ghost:link,
 .btn-ghost:visited {
-
+    border: 1px solid #f39c12;
+    color: #fff;
 }
 
 .btn:hover,
@@ -214,7 +215,8 @@ a:active {
 
 .btn-ghost:hover,
 .btn-ghost:active, {
-
+    background-color:#d8890b;
+    border: 1px solid #d8890b;
 }
 
 /* --- header --- */
@@ -224,6 +226,7 @@ header {
     background-size: cover;
     background-position: center;
     height: 100vh;
+    background-attachment: fixed;
 }
 
 .hero-text-box {

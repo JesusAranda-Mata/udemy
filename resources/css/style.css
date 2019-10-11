@@ -307,6 +307,10 @@ header {
     margin-bottom: 50px;
 }
 
+.works-step p {
+    display: block;
+}
+
 .works-step:last-of-type {
     margin-bottom: 80px;
 }
